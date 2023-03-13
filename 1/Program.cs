@@ -9,10 +9,7 @@ namespace _1
     {
         static void Main(string[] args)
         {
-            Library library = new Library();
-            library.Name = "Ruina";
-            library.Adress = "Comsomolskay9";
-            library.OpenAge = 2850;
+            Library library = new Library("Ruina", "Comsomolskay9", 2850);
         }
     }
 }
