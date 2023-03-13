@@ -7,7 +7,8 @@ namespace _1
 {
     internal class Library
     {
-        private string Adress { get; set; }
-        private string OpenAge { get; set; }
+        public string Name { get; set; }
+        public string Adress { get; set; }
+        public int OpenAge { get; set; }
     }
 }
